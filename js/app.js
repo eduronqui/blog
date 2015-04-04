@@ -66,9 +66,9 @@ var contactJson = null;
         contactJson = data;
       });
     }
-    
+
   }]);
-  
+
   /**
    * Home Controller
    */ 

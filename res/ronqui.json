@@ -1,7 +1,6 @@
 {
   "name": "Edu Ronqui",
-  "birth_day": "27/01/1989",
-  "birth_city": "Sao Paulo",
+  "city": "Sao Paulo",
   "pictures": [{
     "path": "img/eduronqui.png"
   }]
