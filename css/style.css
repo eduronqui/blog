@@ -1,0 +1,24 @@
+.menu-bar ul li {
+  display: inline;
+  padding: 4px;
+}
+
+.picture {
+  width: 120px;
+}
+
+.footer {
+  padding-top: 50px;
+}
+
+.content {
+  padding: 15px;
+  border: 2px solid gray;
+  margin: 30px;
+}
+
+.post-content {
+  padding: 15px;
+  border: 2px solid gray;
+  margin: 30px;
+}
