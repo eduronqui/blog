@@ -1,13 +1,13 @@
-<h1>{{title}}</h1>
+<h1 ng-bind="title"></h1>
 
 <nav>
     <ul>
         <li ng-repeat="postTitle in blogTitles"
-            ng-click="getPostContent(postTitle)"><a href="">{{postTitle}}</a></li>
+            ng-click="getPostContent(postTitle)"><a href="" ng-bind="postTitle"></a></li>
     </ul>
 </nav>
 
 <div ng-hide="!currentPost">
     <div ng-bind-html="currentPost.content"></div>
-    <div>Em: {{currentPost.date}}</div>
+    <div>Em:&nbsp;<span ng-bind="currentPost.date"></span></div>
 </div>
